@@ -1,0 +1,16 @@
+  261  git config --global init.defaultBranch main
+  262  mkdir gitpractice
+  263  cd gitpractice
+  264  git init
+  265  ls
+  266  ls -a
+  267  cd .git
+  268  ls
+  269  cd ..
+  270  git checkout -b main
+  271  git status
+  272  nano mars.txt
+  273  git add mars.txt
+  274  git status
+  275  git commit -m "first commit"
+  276  git status
